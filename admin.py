@@ -199,7 +199,7 @@ back_button.place(x=360, y=455)
 
 # creating a view page i.e employee data using tree
 view=ttk.Style(home)
-# setting interface theme
+# setting the theme of interface
 view.theme_use("clam")
 view.configure("Treeview",font=font2,foreground='#fff',background='#000',fieldbackground='#313837')
 # knowing selected rows state using map 
